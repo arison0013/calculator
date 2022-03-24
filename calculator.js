@@ -6,11 +6,16 @@ function clearScreen(){
 }
 function calculate(){
     try{
+        // var i=1;
         var g=document.getElementById('result').value;
         var q= eval(g);
         document.getElementById('result').value=q;
-    }catch(error){
-        document.getElementById('result').value=error;
+        // if(i==7){
+        //     document.getElementById('result').value="hello!";
+        // }
+    }
+    catch{
+        document.getElementById('result').value="error!";
     }
     
 }
