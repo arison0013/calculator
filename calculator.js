@@ -21,5 +21,5 @@ function calculate(){
 }
 function back() {
     var v=document.getElementById('result').value;
-    document.getElementById('result').value= v.substr(0, v.length-1);
+    document.getElementById('result').value= v.slice(0,-1);
 }
