@@ -1,6 +1,12 @@
 *{
 margin: 0;
 }
+.main{
+    background-color: antiquewhite;
+    height: 100vh;
+    float: left;
+    width: 100%;
+}
 .table{
     background-color: rgb(166, 235, 235);
     height: 400px;
@@ -44,10 +50,4 @@ margin: 0;
     background-color: rgb(180, 40, 15);
     border: 1px slod black;
     
-}
-.main{
-    background-color: antiquewhite;
-    height: 100vh;
-    float: left;
-    width: 100%;
 }
